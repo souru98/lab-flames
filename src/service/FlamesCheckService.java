@@ -18,10 +18,9 @@ public class FlamesCheckService
 		int b=s2.length();
 		
 		
-		
-		
-		label: for(int i=0;i<a;i++)
-		{
+			
+			for(int i=0;i<a;i++)
+		      {
 			char c=s1.charAt(i);
 		
 			for(int j=0;j<b;j++)
@@ -38,7 +37,7 @@ public class FlamesCheckService
 					 b=s2.length();
 					 i=0;
 					 j=0;
-					// continue label;
+					
 				}
 			}
 
@@ -50,7 +49,9 @@ public class FlamesCheckService
 		  String s4=new String();
 		  
 		  
-		  label1 :	for(int i=0;i<5;i++)
+		  
+		  
+		  for(int i=0;i<5;i++)
 			{int n=-1,l=0,p=0;
 				for(int j=1;j<=d;j++)
 				{
